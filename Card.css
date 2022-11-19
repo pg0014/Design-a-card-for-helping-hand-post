@@ -1,0 +1,204 @@
+.card-container{
+    width:400px;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transform: 0.3s;
+    animation: ease-in;
+    margin: 60px;
+}
+
+.card-container:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+
+.image-container img{
+    overflow: hidden;
+    border-radius: 50%;
+    width: 50px;
+    height: 250px;
+    margin: 25px;
+    position: relative;
+    display: inline-flex;
+    border-color: white;
+} 
+
+.card-content{
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+
+h3,p{
+    margin: 0;
+    padding: 0;
+}
+
+.card-title{
+    margin-bottom: 0.5rem;
+}
+
+.card-container .blk1 {
+    display: flex;
+    border: none;
+}
+.card-container .blk1 .txt{
+    margin: 6px;
+}
+ .card-container .card-content .card-body .need{
+    color: rgb(118, 105, 105);
+    font-weight: bold;
+ }
+ .card-container .card-content .card-body{
+    color: rgb(141, 134, 134);
+ }
+
+ .card-container .card-content .add span{
+    color: rgb(186, 179, 179);
+    background-color: none;
+    text-justify:auto;
+    font-size: 14px;
+    padding-left: 5%;
+ }
+
+ .card-container .container {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .btn-container {
+    display: flex;
+    height: 50px;
+    width: 80px;
+    border: none;
+    /* flex-direction: 'row'; */
+    align-items: center;
+    /* background-color: #fff; */
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #730c71;
+  }
+   
+  .btn {
+    border: none;
+    width: 30dp;
+    height: 30dp;
+    color:#fff;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    padding: 6px 15px;
+    color: darkgray;
+    margin: 0 10px;
+  }
+   
+  .like-active {
+    background-color: #730c71;
+  }
+   
+  .dislike-active {
+    background-color: #394350;
+  }
+  .card-container .container .btn-container {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin-bottom: 290px;
+    margin-right: 550px;
+    margin-top: 7px;
+  }
+  #msg{
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+  #bnt{
+    margin-bottom: 5px;
+  }
+ 
+  .card-container .blk1 .button{
+    /* border:#FF0063; */
+    transition: 250ms ease-in-out, transform 150ms ease;
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+  }
+  .card-container  .blk1 .image-container .AccountCircleIcon{
+    width: 370px;
+    height: 100px;
+  }
+
+  .card-container .card-content .add .dir .addtxt{
+    margin: 5px;
+    margin-right: 5px;
+  }
+
+  .profile{
+    width: 50px;
+    height: 60px;
+    margin-left: 10px;
+  }
+  .dir{
+    text-align: justify;
+  }
+  .addlogo{
+    margin-top: 25px;
+    color: #730c71;
+  }
+.addtxt{
+  padding: 0px;
+  font-size: small;
+}
+.rply2{
+  display: inline-block;
+  margin-right: -140px;
+  margin-bottom: -10px;
+  margin-top: 80px;
+  margin-left: -80px;
+  color: #730c71;
+  text-size:18px;
+}
+
+.card-container{
+  align-items: center;
+  margin-left: 425px;
+  margin-top: 160px;
+}
+
+.card-content .add button{
+  border: none;
+}
+.img{
+  margin-top: 2px;
+  width: 110px;
+  height: 60px;
+  margin-left: 173px;
+  margin-right: -125px;
+}
+
+.card-container .blk1 .txt .subtitle{
+  margin-top: -10px;
+  font-size:small ;
+}
+
+.card-container .card-content .card-body{
+  margin-top: -15px;
+}
+
+.up{
+  color: grey;
+}
+.down{
+  color: grey;
+}
+.msg{
+  color: grey;
+}
+
